@@ -5,7 +5,26 @@
 <title>CSS Typography</title>
 <link href="main.css" rel="stylesheet">
 <style>
-
+a {
+  color: #207EBF;
+  text-decoration: none;
+  font-weight: bold;
+  border-bottom: 2px solid #F60;
+}
+a :visited {
+  color: #6E97BF;
+}
+a:hover {
+  color: #FFF;
+  background-color: #6E97BF;
+}
+a[href^="mailto:"] {
+  color: #666666;
+  border: none;
+  background: url(images/email.gif) no-repeat left center;
+  padding-left: 20px;
+  margin-left: 10px;
+}
 
 </style>	
 </head>
